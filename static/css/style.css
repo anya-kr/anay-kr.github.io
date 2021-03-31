@@ -18,19 +18,3 @@ main {
     background-color: #BC86A2;
     color: #211939;
 }
-
-.wrap {
-    position:relative;
-  }
-  
-  .wrap:before {
-    content:"";
-    position: absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    background: rgba(0,0,0,0.5);
-    z-index:999;
-  }
-  

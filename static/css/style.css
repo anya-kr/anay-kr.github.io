@@ -4,12 +4,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-main {
-    margin: 1rem;
-    min-height: calc(100vh - 2rem);
-    min-width: calc(100vw - 2rem);
-}
-
 .photo {
     max-width: 20rem;
 }

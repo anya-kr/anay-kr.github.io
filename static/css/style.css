@@ -1,0 +1,36 @@
+body {
+    background-color: #211939;
+    color: #BC86A2;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    margin: 1rem;
+    min-height: calc(100vh - 2rem);
+    min-width: calc(100vw - 2rem);
+}
+
+.photo {
+    max-width: 20rem;
+}
+
+.inverse {
+    background-color: #BC86A2;
+    color: #211939;
+}
+
+.wrap {
+    position:relative;
+  }
+  
+  .wrap:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,0.5);
+    z-index:999;
+  }
+  
